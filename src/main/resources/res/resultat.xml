@@ -1,0 +1,52 @@
+<BaseMessage cid="12111938-872e-11ed-9270-32691534c4ed" topic="pwc-authorization-online-message-handler" sink="false" key="50001060000001400081" issKey="50001060000001400081" acqKey="0001124260000001400081" mode="1" state="ISF" captureCode="030001" routingCode="000001" messageType="1100" partition="0" microservice="simulator-service">
+    <field Number="2" Value="4260000001400081"/>
+    <field Number="3" Value="090000"/>
+    <field Number="4" Value="0000000000000550000"/>
+    <field Number="6" Value="000000000000020000"/>
+    <field Number="7" Value="1121215300"/>
+    <field Number="10" Value="00000001"/>
+    <field Number="11" Value="129695"/>
+    <field Number="12" Value="111121215214"/>
+    <field Number="13" Value="1601"/>
+    <field Number="14" Value="2612"/>
+    <field Number="15" Value="160401"/>
+    <field Number="16" Value="1229"/>
+    <field Number="17" Value="1229"/>
+    <field Number="18" Value="3504"/>
+    <field Number="19" Value="250"/>
+    <field Number="21" Value="504"/>
+    <field Number="22" Value="510301M13144"/>
+    <field Number="23" Value="001"/>
+    <field Number="24" Value="200"/>
+    <field Number="32" Value="000001"/>
+    <field Number="33" Value="000001"/>
+    <field Number="35" Value="4260000001400081D26122011342217800000"/>
+    <field Number="37" Value="640453829940"/>
+    <field Number="40" Value="201"/>
+    <field Number="41" Value="00000001"/>
+    <field Number="42" Value="100000000000081"/>
+    <field Number="43" Value="MER_SHP_SERVIBANCA_OTHERS          TY PR"/>
+    <field Number="49" Value="840"/>
+    <field Number="50" Value="504"/>
+
+    <complexFields Number="48">
+        <subFields Tag="C96" Value="03200000"/>
+        <subFields Tag="C98" Value="3030"/>
+        <subFields Tag="P94" Value="000001"/>
+        <subFields Tag="P64" Value="000200000"/>
+        <subFields Tag="P97" Value="ONUS"/>
+        <subFields Tag="P67" Value="03000112640453829940"/>
+        <subFields Tag="O01" Value="YNNN"/>
+        <subFields Tag="P03" Value="840"/>
+    </complexFields>
+    <complexFields Number="55">
+        <subFields Tag="57" Value="4632193483575743D1607221123455683999"/>
+        <subFields Tag="82" Value="5C00"/>
+        <subFields Tag="95" Value="0000005000"/>
+        <subFields Tag="9C" Value="00"/>
+        <subFields Tag="9F06" Value="A0000000030101"/>
+        <subFields Tag="9F10" Value="06010A0320000003123456"/>
+        <subFields Tag="9F26" Value="770A54B43CAC1B23"/>
+        <subFields Tag="9F27" Value="11"/>
+    </complexFields>
+</BaseMessage>
