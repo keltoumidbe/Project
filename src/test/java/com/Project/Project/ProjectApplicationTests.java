@@ -8,5 +8,4 @@ public class ProjectApplicationTests {
 
 
 
-	// Ajouter d'autres méthodes de test pour les autres fichiers de testCases et de reference
 }
