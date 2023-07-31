@@ -1,0 +1,146 @@
+<BaseMessage cid="12111938-872e-11ed-9270-32691534c4ed" topic="pwc-authorization-online-message-handler" sink="false" key="50001060000001400081" issKey="50001060000001400081" acqKey="0001124260000001400081" mode="1" state="ISF" captureCode="030001" routingCode="000001" messageType="1100" partition="0" microservice="simulator-service">
+    <field Number="2" Value="4260000001400081"/>
+    <field Number="3" Value="090000"/>
+    <field Number="4" Value="000000000000020000"/>
+    <field Number="5" Value="000000000000050000"/>
+    <field Number="6" Value="000000000000020000"/>
+    <field Number="7" Value="1121215300"/>
+    <field Number="10" Value="00000001"/>
+    <field Number="11" Value="129695"/>
+    <field Number="12" Value="111121215214"/>
+    <field Number="13" Value="1601"/>
+    <field Number="14" Value="2612"/>
+    <field Number="15" Value="160401"/>
+    <field Number="16" Value="1229"/>
+    <field Number="17" Value="1229"/>
+    <field Number="18" Value="3504"/>
+    <field Number="19" Value="250"/>
+    <field Number="21" Value="504"/>
+    <field Number="22" Value="510301M13144"/>
+    <field Number="23" Value="001"/>
+    <field Number="24" Value="200"/>
+    <field Number="32" Value="000001"/>
+    <field Number="33" Value="000001"/>
+    <field Number="35" Value="4260000001400081D26122011342217800000"/>
+    <field Number="37" Value="640453829940"/>
+    <field Number="40" Value="201"/>
+    <field Number="41" Value="00000001"/>
+    <field Number="42" Value="100000000000081"/>
+    <field Number="43" Value="MER__SHP_SERVIBANCA_OTHERS          TY PR"/>
+    <field Number="49" Value="840"/>
+    <field Number="50" Value="504"/>
+    <field Number="51" Value="840"/>
+    <field Number="53" Value="00990000000000001103000100000000000000SID (01)       67228676000010000022"/>
+    <field Number="54" Value="1040840D000000001000"/>
+    <field Number="93" Value="426000"/>
+    <field Number="102" Value="60000001400081"/>
+    <field Number="128" Value="2BD14AD7"/>
+    <field Number="131" Value="Y"/>
+    <field Number="132" Value="D40"/>
+    <field Number="133" Value="3"/>
+    <field Number="134" Value="206"/>
+    <field Number="144" Value="Y"/>
+    <field Number="145" Value="0"/>
+    <field Number="200" Value="000001"/>
+    <field Number="201" Value="030001"/>
+    <field Number="204" Value="01"/>
+    <field Number="205" Value="500010"/>
+    <field Number="207" Value="20221229050546"/>
+    <field Number="208" Value="20160401190000"/>
+    <field Number="209" Value="D40"/>
+    <field Number="210" Value="V2"/>
+    <field Number="211" Value="1"/>
+    <field Number="213" Value="000000000000020000"/>
+    <field Number="214" Value="840"/>
+    <field Number="215" Value="20160401190000"/>
+    <field Number="216" Value="00000001"/>
+    <field Number="217" Value="1229"/>
+    <field Number="218" Value="000000000000020000"/>
+    <field Number="219" Value="840"/>
+    <field Number="220" Value="20160401190000"/>
+    <field Number="221" Value="00000001"/>
+    <field Number="222" Value="1229"/>
+    <field Number="225" Value="0D40"/>
+    <field Number="226" Value="840"/>
+    <field Number="227" Value="0D40"/>
+    <field Number="253" Value="000001"/>
+    <field Number="256" Value="Y"/>
+    <field Number="257" Value="Y"/>
+    <field Number="261" Value="N"/>
+    <field Number="263" Value="Y"/>
+    <field Number="268" Value="N"/>
+    <field Number="269" Value="YYY2YYYNYYYYYYYNYNYNNNNYNYANNNNN"/>
+    <field Number="270" Value="4444444444444444444444444R444444"/>
+    <field Number="275" Value="0"/>
+    <field Number="278" Value="N"/>
+    <field Number="279" Value="T"/>
+    <field Number="288" Value="ADM"/>
+    <field Number="293" Value="000000000000010000"/>
+    <field Number="298" Value="DC"/>
+    <field Number="300" Value="1100"/>
+    <field Number="321" Value="CH"/>
+    <field Number="322" Value="4260000001400081"/>
+    <field Number="323" Value="1"/>
+    <field Number="324" Value="00"/>
+    <field Number="331" Value="Y"/>
+    <field Number="360" Value="001"/>
+    <field Number="403" Value="G0000"/>
+    <field Number="404" Value="00000100VYONL"/>
+    <field Number="420" Value="16012612    N  YNY0011605570500126120001607"/>
+    <field Number="421" Value="Y   NR"/>
+    <field Number="424" Value="A"/>
+    <field Number="425" Value="VSDC    N31A10016016 A"/>
+    <field Number="426" Value="040    FFFFFFFFFFFF1"/>
+    <field Number="427" Value=" 000999"/>
+    <field Number="428" Value="500010504426000     01I2D "/>
+    <field Number="440" Value="001"/>
+    <field Number="441" Value="001"/>
+    <field Number="442" Value="001"/>
+    <field Number="443" Value="001"/>
+    <field Number="444" Value="001"/>
+    <field Number="470" Value="OFF"/>
+    <field Number="471" Value="D40"/>
+    <field Number="701" Value="70f428ae-20f1-41a0-8b3d-fd6e3c4371c3"/>
+    <field Number="702" Value="ACQ0010"/>
+    <field Number="703" Value="ACQ00042029"/>
+    <field Number="801" Value="001003001"/>
+    <field Number="802" Value="e885012be2457a2ed78d09c7f4d74abe"/>
+    <field Number="900" Value="0001"/>
+    <complexFields Number="48">
+        <subFields Tag="C96" Value="03200000"/>
+        <subFields Tag="C98" Value="3030"/>
+        <subFields Tag="P94" Value="000001"/>
+        <subFields Tag="P64" Value="000200000"/>
+        <subFields Tag="P97" Value="ONUS"/>
+        <subFields Tag="P67" Value="03000112640453829940"/>
+        <subFields Tag="O01" Value="YNNNN"/>
+        <subFields Tag="P03" Value="840"/>
+        <subFields Tag="P13" Value="000112"/>
+        <subFields Tag="P68" Value="03000112640453829940"/>
+        <subFields Tag="K07" Value="000000010000000000"/>
+        <subFields Tag="P48" Value="H"/>
+        <subFields Tag="P04" Value="000000000000020000"/>
+        <subFields Tag="P06" Value="OFF"/>
+        <subFields Tag="P09" Value="000001"/>
+        <subFields Tag="P08" Value="840000000000000020000000000011121000000000000000000"/>
+        <subFields Tag="Y04" Value="1"/>
+    </complexFields>
+    <complexFields Number="55">
+        <subFields Tag="57" Value="4632193483575743D1607221123455683999"/>
+        <subFields Tag="82" Value="5C00"/>
+        <subFields Tag="95" Value="00000000001"/>
+        <subFields Tag="9C" Value="00"/>
+        <subFields Tag="9F06" Value="A0000000030101"/>
+        <subFields Tag="9F10" Value="06010A0320000003123456"/>
+        <subFields Tag="9F26" Value="770A54B43CAC1B23"/>
+        <subFields Tag="9F27" Value="11"/>
+        <subFields Tag="9F33" Value="60B0C0"/>
+        <subFields Tag="9F36" Value="0002"/>
+        <subFields Tag="9F37" Value="12340112"/>
+        <subFields Tag="DF80" Value="00"/>
+        <subFields Tag="DF81" Value="02"/>
+        <subFields Tag="9A" Value="130101"/>
+        <subFields Tag="5F2A" Value="0840"/>
+        <subFields Tag="9F1A" Value="0300"/>
+    </complexFields>
+</BaseMessage>

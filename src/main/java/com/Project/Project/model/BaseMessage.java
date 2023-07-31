@@ -51,10 +51,4 @@ public class BaseMessage {
     @JacksonXmlProperty(isAttribute = true, localName = "microservice")
     private String microservice;
 
-
-
-
-
-
-
 }

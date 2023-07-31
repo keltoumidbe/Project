@@ -5,40 +5,36 @@
     <bean id="controleFile" class="com.Project.Project.config.ControleFile">
         <property name="fieldControls">
             <list>
-                <!-- Définir ici les contrôles pour chaque champ que vous voulez vérifier -->
+                <bean class="com.Project.Project.model.Field">
+                <property name="number" value="4"/>
+                </bean>
                 <bean class="com.Project.Project.model.Field">
                     <property name="number" value="5"/>
                 </bean>
                 <bean class="com.Project.Project.model.Field">
-                    <property name="number" value="4"/>
+                    <property name="number" value="15"/>
                 </bean>
                 <bean class="com.Project.Project.model.Field">
                     <property name="number" value="43"/>
                 </bean>
                 <bean class="com.Project.Project.model.Field">
-                    <property name="number" value="15"/>
+                    <property name="number" value="703"/>
                 </bean>
-                <!-- Ajouter d'autres contrôles de champ ici -->
             </list>
         </property>
 
         <property name="complexFieldControls">
             <list>
-                <!-- Définir ici les contrôles pour chaque champ complexe que vous voulez vérifier -->
                 <bean class="com.Project.Project.model.ComplexField">
                     <property name="number" value="48"/>
                     <property name="subFields">
                         <list>
-                            <!-- Définir ici les contrôles pour chaque sous-champ du complexField 48 que vous voulez vérifier -->
                             <bean class="com.Project.Project.model.SubField">
                                 <property name="tag" value="C96"/>
-                                <!-- Ajoutez d'autres propriétés du sous-champ ici si nécessaire -->
                             </bean>
                             <bean class="com.Project.Project.model.SubField">
                                 <property name="tag" value="O01"/>
-                                <!-- Ajoutez d'autres propriétés du sous-champ ici si nécessaire -->
                             </bean>
-                            <!-- Ajouter d'autres contrôles de sous-champ ici -->
                         </list>
                     </property>
                 </bean>
@@ -46,16 +42,18 @@
                     <property name="number" value="55"/>
                     <property name="subFields">
                         <list>
-                            <!-- Définir ici les contrôles pour chaque sous-champ du complexField 55 que vous voulez vérifier -->
                             <bean class="com.Project.Project.model.SubField">
                                 <property name="tag" value="95"/>
-                                <!-- Ajoutez d'autres propriétés du sous-champ ici si nécessaire -->
                             </bean>
-                            <!-- Ajouter d'autres contrôles de sous-champ ici -->
+                            <bean class="com.Project.Project.model.SubField">
+                                <property name="tag" value="9F1A"/>
+                            </bean>
+                            <bean class="com.Project.Project.model.SubField">
+                                <property name="tag" value="9F02"/>
+                            </bean>
                         </list>
                     </property>
                 </bean>
-                <!-- Ajouter d'autres contrôles de champ complexe ici -->
             </list>
         </property>
     </bean>

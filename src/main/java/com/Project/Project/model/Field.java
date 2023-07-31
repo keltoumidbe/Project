@@ -21,7 +21,6 @@ public class Field implements Comparable<Field> {
     private String value;
 
     public Field() {
-        // Constructeur par défaut nécessaire pour la désérialisation
     }
 
     public Field(String number, String value) {

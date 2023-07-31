@@ -13,49 +13,51 @@ import java.io.File;
 public class FileComparator {
     private String referenceFilePath;
     private String resultFilePath;
+    private int error;
+
+
 
     public FileComparator(String referenceFilePath, String resultFilePath) {
         this.referenceFilePath = referenceFilePath;
         this.resultFilePath = resultFilePath;
+
     }
+
     public void compareFields(List<Field> fieldControls) {
         try {
-            // Charger les fichiers XML de référence et de résultat
             Document referenceDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(referenceFilePath));
             Document resultDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(resultFilePath));
 
             for (Field fieldControl : fieldControls) {
                 String fieldNumber = fieldControl.getNumber();
 
-                // Vérifier si le champ existe dans le fichier de résultat
                 String resultValue = getFieldElementValue(resultDoc, fieldNumber);
                 if (resultValue == null) {
-                    System.out.println("Champ " + fieldNumber + " : Le champ n'existe pas dans le fichier de résultat.\n");
+                    System.out.println("Field " + fieldNumber + " : Le champ n'existe pas dans le fichier de résultat.\n");
+                    error++;
+
                     continue;
                 }
 
-                // Récupérer la valeur de référence pour le champ donné
                 String referenceValue = getFieldElementValue(referenceDoc, fieldNumber);
 
-                // Comparer les valeurs
                 if (referenceValue.equals(resultValue)) {
-                    System.out.println("Champ " + fieldNumber + ":");
-                    System.out.println("- Valeur de référence : " + referenceValue);
-                    System.out.println("- Valeur du résultat du test : " + resultValue);
-                    System.out.println("- Différence : Les valeurs sont identiques.\n");
+                    System.out.println("Field "+ fieldNumber + ":");
+                    System.out.println("Expected : " + referenceValue);
+                    System.out.println("Actual   : " + resultValue);
+                    System.out.println("Les valeurs sont identiques.\n");
                 } else {
-                    System.out.println("Champ " + fieldNumber + ":");
-                    System.out.println("- Valeur de référence : " + referenceValue);
-                    System.out.println("- Valeur du résultat du test : " + resultValue);
-                    System.out.println("- Différence : Les valeurs diffèrent.\n");
+                    System.out.println("Field " + fieldNumber + ":");
+                    System.out.println("Expected : " + referenceValue);
+                    System.out.println("Actual   : " + resultValue);
+                    System.out.println("Les valeurs sont differentes .\n");
+                    error++;
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
 
     private String getFieldElementValue(Document doc, String fieldNumber) {
         NodeList fieldList = doc.getElementsByTagName("field");
@@ -71,35 +73,36 @@ public class FileComparator {
 
     public void compareSubFields(List<SubField> subFieldControls, String complexFieldNumber) {
         try {
-            // Charger les fichiers XML de référence et de résultat
             Document referenceDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(referenceFilePath));
             Document resultDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(resultFilePath));
 
             for (SubField subFieldControl : subFieldControls) {
                 String subFieldTag = subFieldControl.getTag();
 
-                // Récupérer les valeurs de référence et de résultat pour le sous-champ donné
                 String referenceValue = getSubFieldElementValue(referenceDoc, complexFieldNumber, subFieldTag);
                 String resultValue = getSubFieldElementValue(resultDoc, complexFieldNumber, subFieldTag);
 
-                // Comparer les valeurs des sous-champs
-                if (referenceValue != null && referenceValue.equals(resultValue)) {
-                    System.out.println("Sous-champ " + subFieldTag + ":");
-                    System.out.println("- Valeur de référence : " + referenceValue);
-                    System.out.println("- Valeur du résultat du test : " + resultValue);
-                    System.out.println("- Différence : Les valeurs des sous-champs sont identiques.\n");
+                if (resultValue == null) {
+                    System.out.println("Sous champ " + subFieldTag + " : n'existe pas dans le fichier de résultat.\n");
+                    error++;
+                    continue;
+                } else if (referenceValue != null && referenceValue.equals(resultValue)) {
+                    System.out.println("SubField " + subFieldTag + ":");
+                    System.out.println("Expected : " + referenceValue);
+                    System.out.println("Actual   : " + resultValue);
+                    System.out.println("Les valeurs des sous champs sont identiques.\n");
                 } else {
-                    System.out.println("Sous-champ " + subFieldTag + ":");
-                    System.out.println("- Valeur de référence : " + referenceValue);
-                    System.out.println("- Valeur du résultat du test : " + resultValue);
-                    System.out.println("- Différence : Les valeurs des sous-champs diffèrent.\n");
+                    System.out.println("SubField " + subFieldTag + ":");
+                    System.out.println("Expected : " + referenceValue);
+                    System.out.println("Actual   : " + resultValue);
+                    System.out.println("Les valeurs des sous champs sont differentes .\n");
+                    error++;
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 
 
 
@@ -121,5 +124,7 @@ public class FileComparator {
         }
         return null;
     }
-
+    public void printErrorCounts() {
+        System.out.println("Le nombre total d'erreurs : " + error);
+    }
 }

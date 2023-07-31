@@ -21,7 +21,7 @@ public class MicroserviceTest {
         ControlFile controlFile = readControlFile("src/main/resources/controleFile.xml");
 
         // Lire le fichier de reference
-        BaseMessage referenceMessage = readReferenceFile("src/main/resources/ref/reference.xml");
+        BaseMessage referenceMessage = readReferenceFile("src/main/resources/ref/test1_ref.xml");
 
         // Lire le fichier de test
         BaseMessage testMessage = readTestFile("src/main/resources/testCases/testcase1.xml");
