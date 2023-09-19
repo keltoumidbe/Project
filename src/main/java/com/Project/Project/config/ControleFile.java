@@ -6,25 +6,27 @@ import com.Project.Project.model.Field;
 import java.util.List;
 
 public class ControleFile {
-    private List<Field> fieldControls;
-    private List<ComplexField> complexFieldControls;
+    private static List<Field> fieldControls;
+    private static List<ComplexField> complexFieldControls;
 
     public ControleFile() {
     }
 
-    public List<ComplexField> getComplexFieldControls() {
+    public static List<ComplexField> getComplexFieldControls() {
         return complexFieldControls;
     }
 
-    public void setComplexFieldControls(List<ComplexField> complexFieldControls) {
-        this.complexFieldControls = complexFieldControls;
-    }
 
-    public List<Field> getFieldControls() {
+
+    public static List<Field> getFieldControls() {
         return fieldControls;
     }
 
-    public void setFieldControls(List<Field> fieldControls) {
-        this.fieldControls = fieldControls;
+    public static void setComplexFieldControls(List<ComplexField> complexFieldControls) {
+        ControleFile.complexFieldControls = complexFieldControls;
+    }
+
+    public static void setFieldControls(List<Field> fieldControls) {
+        ControleFile.fieldControls = fieldControls;
     }
 }

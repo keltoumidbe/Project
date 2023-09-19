@@ -2,7 +2,7 @@
     <field Number="2" Value="4260000001400081"/>
     <field Number="3" Value="090000"/>
     <field Number="4" Value="000000000000020000"/>
-    <field Number="5" Value="00000000000000000"/>
+    <field Number="5" Value="000000000000040000"/>
     <field Number="6" Value="000000000000020000"/>
     <field Number="7" Value="1121215300"/>
     <field Number="10" Value="00000001"/>
@@ -113,7 +113,7 @@
         <subFields Tag="P64" Value="000200000"/>
         <subFields Tag="P97" Value="ONUS"/>
         <subFields Tag="P67" Value="03000112640453829940"/>
-        <subFields Tag="O01" Value="YNNN"/>
+        <subFields Tag="O01" Value="YkNN"/>
         <subFields Tag="P03" Value="840"/>
         <subFields Tag="P13" Value="000112"/>
         <subFields Tag="P68" Value="03000112640453829940"/>

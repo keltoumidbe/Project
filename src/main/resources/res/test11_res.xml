@@ -1,7 +1,7 @@
 <BaseMessage cid="12111938-872e-11ed-9270-32691534c4ed" topic="pwc-authorization-online-message-handler" sink="false" key="50001060000001400081" issKey="50001060000001400081" acqKey="0001124260000001400081" mode="1" state="ISF" captureCode="030001" routingCode="000001" messageType="1100" partition="0" microservice="simulator-service">
     <field Number="2" Value="4260000001400081"/>
     <field Number="3" Value="090000"/>
-    <field Number="4" Value="000000000000020000"/>
+    <field Number="4" Value="00000000000000000"/>
     <field Number="5" Value="00000000000000000"/>
     <field Number="6" Value="000000000000020000"/>
     <field Number="7" Value="1121215300"/>
@@ -104,7 +104,7 @@
     <field Number="702" Value="ACQ0010"/>
     <field Number="703" Value="ACQ0042029"/>
     <field Number="801" Value="001003001"/>
-    <field Number="802" Value="e885012be2457a2ed78d09c7f4d74abe"/>
+    <field Number="802" Value="e885012be2457a2ed78d09cf4d74abe"/>
     <field Number="900" Value="0001"/>
     <complexFields Number="48">
         <subFields Tag="C96" Value="03200000"/>

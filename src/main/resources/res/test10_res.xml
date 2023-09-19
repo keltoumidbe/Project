@@ -2,7 +2,7 @@
     <field Number="2" Value="4260000001400081"/>
     <field Number="3" Value="090000"/>
     <field Number="4" Value="000000000000020000"/>
-    <field Number="5" Value="00000000000000000"/>
+    <field Number="5" Value="000000000000040000"/>
     <field Number="6" Value="000000000000020000"/>
     <field Number="7" Value="1121215300"/>
     <field Number="10" Value="00000001"/>
@@ -102,7 +102,7 @@
     <field Number="471" Value="D40"/>
     <field Number="701" Value="70f428ae-20f1-41a0-8b3d-fd6e3c4371c3"/>
     <field Number="702" Value="ACQ0010"/>
-    <field Number="703" Value="ACQ0042029"/>
+    <field Number="703" Value="ACQ0042029685"/>
     <field Number="801" Value="001003001"/>
     <field Number="802" Value="e885012be2457a2ed78d09c7f4d74abe"/>
     <field Number="900" Value="0001"/>
@@ -137,7 +137,7 @@
         <subFields Tag="9F33" Value="60B0C0"/>
         <subFields Tag="9F36" Value="0002"/>
         <subFields Tag="9F37" Value="12340112"/>
-        <subFields Tag="DF80" Value="00"/>
+        <subFields Tag="DF80" Value="000"/>
         <subFields Tag="DF81" Value="02"/>
         <subFields Tag="9A" Value="130101"/>
         <subFields Tag="5F2A" Value="0840"/>

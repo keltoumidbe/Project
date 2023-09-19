@@ -23,11 +23,6 @@ public class Field implements Comparable<Field> {
     public Field() {
     }
 
-    public Field(String number, String value) {
-        this.number = number;
-        this.value = value;
-    }
-
     @Override
     public int compareTo(Field field) {
         return Integer.parseInt(this.getNumber()) - Integer.parseInt(field.getNumber());

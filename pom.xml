@@ -37,6 +37,21 @@
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.3</version> <!-- Assurez-vous de spécifier la dernière version -->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.3</version> <!-- Assurez-vous de spécifier la dernière version -->
+		</dependency>
+
+
+
+
+
 
 
 	</dependencies>

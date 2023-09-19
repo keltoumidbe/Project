@@ -20,6 +20,12 @@
                 <bean class="com.Project.Project.model.Field">
                     <property name="number" value="703"/>
                 </bean>
+
+                <bean class="com.Project.Project.model.Field">
+                    <property name="number" value="802"/>
+                </bean>
+
+
             </list>
         </property>
 
@@ -51,6 +57,11 @@
                             <bean class="com.Project.Project.model.SubField">
                                 <property name="tag" value="9F02"/>
                             </bean>
+                            <bean class="com.Project.Project.model.SubField">
+                                <property name="tag" value="DF80"/>
+                            </bean>
+
+
                         </list>
                     </property>
                 </bean>

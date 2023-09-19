@@ -15,17 +15,8 @@ public class ComplexField extends Field {
     @JacksonXmlElementWrapper(useWrapping = false)
     private List<SubField> subFields = new ArrayList<>();
 
-    public void addSubField(String tag, String value){
-        SubField subField = new SubField();
-        subField.setTag(tag);
-        subField.setValue(value);
-        this.subFields.add(subField);
-    }
     public List<SubField> getSubFieldControls() {
         return subFields;
     }
 
-    public void setSubFieldControls(List<SubField> subFields) {
-        this.subFields = subFields;
-    }
 }

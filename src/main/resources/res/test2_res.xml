@@ -26,7 +26,7 @@
     <field Number="40" Value="201"/>
     <field Number="41" Value="00000001"/>
     <field Number="42" Value="100000000000081"/>
-    <field Number="43" Value="MAR_SHP_SERVIBANCA_OTHERS          TY PR"/>
+    <field Number="43" Value="MER_SHP_SERVIBANCA_OTHERS      TY PR"/>
     <field Number="49" Value="840"/>
     <field Number="50" Value="504"/>
     <field Number="51" Value="840"/>
@@ -141,6 +141,7 @@
         <subFields Tag="DF81" Value="02"/>
         <subFields Tag="9A" Value="130101"/>
         <subFields Tag="5F2A" Value="0840"/>
+        <subFields Tag="9F1A" Value="0250"/>
         <subFields Tag="9F02" Value="000000000500"/>
     </complexFields>
 </BaseMessage>
